@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Tailwind Components */
+@layer components {
+  .link {
+    @apply cursor-pointer hover:underline;
+  }
+  .button-outline {
+    @apply rounded-md border-2 border-primary hover:bg-primary/80 hover:text-black duration-500 py-2 px-6 text-primary tracking-wider;
+  }
+  .primary-btn {
+    @apply bg-primary text-white hover:bg-primary/80 duration-500 rounded-lg py-2 px-4;
+  }
+}
+
+/* Dark/Light Mode Styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #1a202c; /* Dark Mode Background */
+  color: #ffffff;          /* Dark Mode Text */
+}
+
+/* Container Utility */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}

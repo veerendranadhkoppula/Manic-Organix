@@ -1,0 +1,13 @@
+<svg width="21" height="31" viewBox="0 0 21 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="10.5" cy="15.5" r="10.5" fill="#8FC087"/>
+  <circle cx="10.5" cy="15.5" r="8" fill="#387C5B"/>
+  <path d="M10.5 11.5L9.5 14H11.5L10.5 11.5Z" fill="white"/>
+  <path d="M10.5 14V17" stroke="white" stroke-width="1.5"/>
+  <path d="M9 17H12" stroke="white" stroke-width="1.5"/>
+  <text x="50%" y="27" dominant-baseline="middle" text-anchor="middle" font-size="4" fill="white" font-family="Arial, sans-serif">
+    SUSTAINABLE AGRICULTURE
+  </text>
+  <text x="50%" y="4" dominant-baseline="middle" text-anchor="middle" font-size="4" fill="white" font-family="Arial, sans-serif">
+    MANIC ORGANIX INC
+  </text>
+</svg>
