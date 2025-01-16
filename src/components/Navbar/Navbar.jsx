@@ -39,7 +39,7 @@ const Navbar = () => {
           {/* Logo section */}
           <div className="flex items-center gap-3">
             <img src={logo} alt="Manic Organix Logo" className="w-5" />
-            <span className="text-2xl sm:text-3xl font-semibold">
+            <span className="text-2xl sm:text-3xl font-semibold mr-10">
               Manic Organix.
             </span>
           </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
                   )}
                 </li>
               ))}
-        
+
               <DarkMode />
             </ul>
           </nav>

@@ -1,8 +1,8 @@
 import React from "react";
 
-import image1 from "../../assets/pexels-lyn-ong-2836069-5005518.jpg";
+import image1 from "../../assets/pexels-jatuphon-buraphon-110709-348689.jpg";
 import image2 from "../../assets/pexels-pragyanbezbo-4199762.jpg";
-import image3 from "../../assets/www-zanda-photography-RBdE3jv5y68-unsplash.jpg";
+import image3 from "../../assets/pexels-quang-nguyen-vinh-222549-2131784.jpg";
 import image4 from "../../assets/thomas-verbruggen-cVYLIzF6Gh0-unsplash.jpg";
 
 const HeroSection = () => {
